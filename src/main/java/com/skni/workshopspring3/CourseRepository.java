@@ -1,9 +1,10 @@
 package com.skni.workshopspring3;
 
-import com.skni.workshopspring3.repo.entity.Student;
+import com.skni.workshopspring3.repo.entity.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CourseRepository extends JpaRepository<Student, Long> {
+
+public interface CourseRepository extends JpaRepository<Course, Long> {
 
 
 }

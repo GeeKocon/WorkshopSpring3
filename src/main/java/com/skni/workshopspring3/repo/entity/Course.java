@@ -30,8 +30,8 @@ public class Course {
     @Column(name = "college")
     private String college;
 
-    @Column(name = "courseType")
     @Enumerated(EnumType.STRING)
+    @Column(name = "courseType")
     private CourseTypeEnum courseType;
 
 }

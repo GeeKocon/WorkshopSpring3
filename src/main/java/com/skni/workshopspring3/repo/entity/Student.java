@@ -24,8 +24,8 @@ public class Student {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "lastname")
-    private String lastname;
+    @Column(name = "lastName")
+    private String lastName;
 
     @Column(name = "birthdate")
     private LocalDate birthdate;
